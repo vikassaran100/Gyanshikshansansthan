@@ -1,0 +1,84 @@
+{% extends 'base.html'%}
+
+{%block title%}
+About Us
+{%endblock title%}
+
+
+{%block body %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand " href="/index" style="font-size:30px">Gyan Shikshan Sansthan</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto  my-13">
+     <li class="nav-item " style="font-size: 19px">
+        <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " style="font-size: 19px" href="/about">About us</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" style="font-size: 19px" href="/contact">Contact us</a>
+      </li>
+      
+    </ul>
+   
+  </div>
+</nav>
+
+<div>
+<div class="container">
+ <img src="/static/download (15).jpg" width="1100" height="200" position="center" >
+ </div>
+    <br>
+    <hr>
+    <h2 class="text-center text-primary">About Gyan shikashan Sansthan:</h2>
+    <hr>
+    <!-- contact Modal -->
+    <div class="container">
+        <p><b>ज्ञान शिक्षण संस्थान उच्च माध्यमिक विध्यालय , बंधनाऊ</b> की स्थापना सन् 2016 मे हुई । <br>तब से यह स्कूल
+            गाँव को बेहतर परिणाम प्रदान करती हुई आ रही हैं । इस स्कूल के निर्देशक श्री विनोद जी जान्घिड़ हैं और
+            प्रधानाचार्य श्री बीरबल जी बाना हैं । <br> विध्यालय मैं एक मैदान हैं और विध्यालय आस -पास के गांवों को वाहन
+            की सुविधा प्रदान करता हैं । <br>
+            विध्यालय Hindi midium और english midium दोनों को सपोर्ट करता हैं । <br>
+
+        </p>
+    </div>
+    <div class="row mb-2 mx-4 ">
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250 bg-primary">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-primary">प्रधानाचार्य </strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark">बीरबल जी बाना </a>
+                    </h3>
+                    <div class="mb-1 text-muted">Dec 27 </div>
+                    <p class="card-text mb-auto"></p>
+
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb"
+                    alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="/static/birbal.jpg"
+                    data-holder-rendered="true">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">निर्देशक</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark">विनोद जी जान्गिड़</a>
+                    </h3>
+                    <div class="mb-1 text-muted">Dec 27 </div>
+                    <p class="card-text mb-auto"> </p>
+
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb"
+                    alt="Thumbnail [200x250]" src="/static/V.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock body %}
